@@ -127,7 +127,6 @@ public class tabla extends javax.swing.JFrame {
                 row[i] = e.tieneTransicionCon(s);
                 i++;
             }
-            //i++;
             row[i] = (e.isEsFinal()) ? 1 : -1;
             modelo.addRow(row); 
             i = 0;
